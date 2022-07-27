@@ -1,4 +1,4 @@
-FROM mysql:8.0.29 as mysql
+FROM mysql:8.0.30 as mysql
 
 ENV MYSQL_SKIP_TEST_DB=yes
 ENV MYSQL_DATABASE=shopware
